@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://saracarl.github.io/test/kut-recording/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "kut recording" ] },
+    "homepage": [
+      {
+        "id": "",
+        "type": "Text",
+        "label": { "en": [ "Home page for kut recording" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://saracarl.github.io/test/kut-recording/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 10800.0,
+        "items": [
+          {
+            "id": "https://saracarl.github.io/test/kut-recording/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://saracarl.github.io/test/kut-recording/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://kut-podcast.streamguys1.com/kut-flash/satnight/satnight.mp3?listeningSessionID=0CD_382_309__b251c80012cce1dbfce5ecb3881f005e3935f088",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 10800.0
+                },
+                "target": "https://saracarl.github.io/test/kut-recording/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
